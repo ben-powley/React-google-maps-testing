@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.input-container {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    z-index: 99;
+}
+
+.race-number-input {
+    padding: 0.5rem 0.5rem;
+    border: 0px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.24);
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.race-number-input:active,
+.race-number-input:focus {
+    border: 0px;
+    outline: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.48);
+}
+
+.submit-race-number {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    background: #6600e3;
+    color: white;
+    border: 0px;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.marker-label {
+    width: 60px;
+    margin-top: 0px;
+    background: white;
+    padding: 0.25em;
+}
